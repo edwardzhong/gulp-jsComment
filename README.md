@@ -1,4 +1,4 @@
-###给js文件自动添加注释
+###gulp插件，给js文件自动添加注释
 #####使用方式：gulpfile.js
 
 	var gulp = require('gulp');
