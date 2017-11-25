@@ -1,6 +1,6 @@
-###gulp插件，给js文件自动添加注释
-#####使用方式：gulpfile.js
-
+### gulp插件，给js文件自动添加注释
+#### 使用方式：gulpfile.js
+```javascript
 	var gulp = require('gulp');
 	var jsComment = require('gulp-jsComment');
 
@@ -9,3 +9,4 @@
 		  .pipe(jsComment())
 		  .pipe(gulp.dest('modifiedFiles'));
 	});
+```
